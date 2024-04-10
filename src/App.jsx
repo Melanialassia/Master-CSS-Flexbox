@@ -131,6 +131,17 @@ function App() {
         </div>
       </section>
       {/* FIN CONTENIDO */}
+
+      {/* INCIO FOOTER */}
+      <footer className={style.footer}>
+        <div className={style.logo}>
+          <h1>Portfolio</h1>
+        </div>
+        <div className={style.info}>
+         <p>Máster en CSS - Víctor Robles web &copy;</p>
+        </div>
+      </footer>
+      {/* FIN FOOTER */}
     </div>
   );
 }
