@@ -36,83 +36,121 @@
 }
 
 .menu {
-    flex-grow: 1;
-    flex-basis: 30%;
-    height: 100%;
-    padding-right: 20px ;
+  flex-grow: 1;
+  flex-basis: 30%;
+  height: 100%;
+  padding-right: 20px;
 }
 
 .menu ul {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.menu  a {
-    text-transform: uppercase;
-    color: #444;
-    padding: 10px;
-    transition: all 300ms;
+.menu a {
+  text-transform: uppercase;
+  color: #444;
+  padding: 10px;
+  transition: all 300ms;
 }
-
 
 .menu a:hover {
-    background: #ccc;
-    color: white;
+  background: #ccc;
+  color: white;
 }
 
-.content{
-    display: flex; 
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.proyects{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis:70%;
+.proyects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 70%;
 }
 
-.proyect{
-    flex-grow: 1;
-    margin-right: 20px;
-    flex-basis: 250px;
-    margin-bottom: 25px;
-    border: 1px solid #ccc;
+.proyect {
+  flex-grow: 1;
+  margin-right: 20px;
+  flex-basis: 250px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
 }
 
 .proyect img {
-    width: 100%;
+  width: 100%;
 }
 
-.info{
-    padding: 10px;
+.info {
+  padding: 10px;
 }
 
 .info a {
-    font-size: 16px;
-    color: black;
-    transition: all 300ms;
-    font-weight: 800;
+  font-size: 16px;
+  color: black;
+  transition: all 300ms;
+  font-weight: 800;
 }
 
-.info a:hover{
-    color: green;
+.info a:hover {
+  color: green;
 }
 
 .info p {
-    font-size: 16px;
-    color: gray;
+  font-size: 16px;
+  color: gray;
 }
 
-.lateral{
-    
+.lateral {
+  display: flex;
+  flex-direction: column; /* coloca los elementos uno debajo del otro*/
+  flex-wrap: wrap;
+  flex-basis: 15%;
+  margin-right: 30px;
+  padding: 15px;
+}
+
+.lateral h2 {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 100; /* es el mínimo*/
+  color: #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+  text-align: center;
+}
+
+.lateral ul {
+  list-style: none;
+}
+
+.lateral ul li {
+    padding-bottom: 20px;
+}
+
+.lateral a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    color: #444;
+    transition: all 300ms;
+    text-transform: uppercase;
+}
+
+.lateral a:hover{
+    background: #444;
+    color: #eee;
 }

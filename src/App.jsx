@@ -30,7 +30,7 @@ function App() {
       {/* INCIO CONTENIDO */}
       <section className={style.content}>
         <aside className={style.lateral}>
-          <h2>¿Qué quiere ver</h2>
+          <h2>¿Qué quiere ver?</h2>
           <ul>
             <li>
               <a href="#">Webs</a>
